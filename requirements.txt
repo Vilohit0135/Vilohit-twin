@@ -1,0 +1,4 @@
+livekit-agents==1.6.4
+livekit-plugins-groq==1.6.4
+livekit-plugins-cartesia==1.6.4
+python-dotenv==1.2.2

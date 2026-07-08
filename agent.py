@@ -37,7 +37,7 @@ async def entrypoint(ctx: agents.JobContext):
     session = AgentSession(
         stt=groq.STT(model="whisper-large-v3-turbo"),
         llm=groq.LLM(model="llama-3.1-8b-instant"),
-        tts=cartesia.TTS(voice="47c38ca4-5f35-497b-b1a3-415245fb35e1, speed=0.8"),      # ← slow down the talking pace
+        tts=cartesia.TTS(voice="47c38ca4-5f35-497b-b1a3-415245fb35e1", speed=0.8),      # ← slow down the talking pace
         #tts=deepgram.TTS(model="aura-2-apollo-en"),     # Deepgram Aura — male voice
         user_away_timeout=8.0,
     )
