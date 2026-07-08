@@ -1,0 +1,12 @@
+# secrets — NEVER commit
+.env
+.env.local
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# generated audio
+*.wav
+*.mp3
